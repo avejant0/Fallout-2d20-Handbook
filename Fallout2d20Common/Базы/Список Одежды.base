@@ -17,7 +17,7 @@ views:
     name: Table
     filters:
       and:
-        - note["Тип брони"] == "Обмундирование"
+        - note["Тип брони"] == "Головной убор"
     groupBy:
       property: Тип брони
       direction: ASC
