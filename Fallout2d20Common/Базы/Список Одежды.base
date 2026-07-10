@@ -17,7 +17,7 @@ views:
     name: Table
     filters:
       and:
-        - note["Тип брони"] == "Головной убор"
+        - note["Тип брони"] == "Броня"
     groupBy:
       property: Тип брони
       direction: ASC
@@ -34,6 +34,12 @@ views:
       - Редкость
       - Оригинальное название
     sort:
+      - property: file.name
+        direction: ASC
+      - property: Физическое СУ
+        direction: ASC
+      - property: Защищаемая часть тела
+        direction: ASC
       - property: Тип
         direction: ASC
       - property: Цена
