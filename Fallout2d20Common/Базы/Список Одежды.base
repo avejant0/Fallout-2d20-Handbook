@@ -17,7 +17,7 @@ views:
     name: Table
     filters:
       and:
-        - note["Тип брони"] == "Броня"
+        - note["Тип брони"] == "Броня для собак"
     groupBy:
       property: Тип брони
       direction: ASC
