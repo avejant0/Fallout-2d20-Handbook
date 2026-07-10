@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "скорость стрельбы": "number",
+    "Качества": "multitext",
+    "Вес": "number",
+    "Цена": "number",
+    "Редкость": "number",
+    "Урон": "number",
+    "Эффекты": "multitext",
+    "Тип урона": "multitext",
+    "Боеприпасы": "multitext"
+  }
+}

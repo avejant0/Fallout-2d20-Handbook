@@ -1,0 +1,49 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Оружие")
+    groupBy:
+      property: Тип
+      direction: ASC
+    order:
+      - file.name
+      - Тип
+      - Урон
+      - Эффекты
+      - Тип урона
+      - Скорострельность
+      - Дистанция
+      - Качества
+      - Вес
+      - Цена
+      - Редкость
+      - Оригинальное название
+      - Боеприпасы
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: Тип урона
+        direction: DESC
+    summaries: {}
+    columnSize:
+      note.Урон: 68
+      note.Вес: 129
+      note.Цена: 102
+      note.Редкость: 190
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("Оружие")
+    order:
+      - file.name
+      - Боеприпасы
+    sort:
+      - property: Боеприпасы
+        direction: ASC
+      - property: Оригинальное название
+        direction: DESC
+      - property: file.name
+        direction: ASC

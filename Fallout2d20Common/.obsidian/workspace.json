@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "91b45ea5db68d825",
+    "type": "split",
+    "children": [
+      {
+        "id": "686b962665bf329a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3daff971ff8cd1a",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Базы/Список Оружия.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Список Оружия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e1e0c3dd4f9fbe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfe27937f283a3b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f78a9a3dae463138",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0b574e7e307e71d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"Урон\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fa752164629af9c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ffc88a8ad399ad52",
+    "type": "split",
+    "children": [
+      {
+        "id": "6db807a6f1fedc4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7dc43bc195041c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Базы/Список Оружия.base",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Список Оружия"
+            }
+          },
+          {
+            "id": "96ca2e108456b4b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Базы/Список Оружия.base",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Список Оружия"
+            }
+          },
+          {
+            "id": "760b1e9574bf154d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "97e804ad9c928999",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cb282af33aa214a7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Базы/Список Оружия.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Список Оружия"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a3daff971ff8cd1a",
+  "lastOpenFiles": [
+    "Качества оружия/Взрыв.md",
+    "Качества оружия/Вплотную.md",
+    "Качества оружия/Гатлинг.md",
+    "Качества оружия/Метательное.md",
+    "Качества оружия/Неточное.md",
+    "Качества оружия/Парирование.md",
+    "Качества оружия/Точный.md",
+    "Качества оружия/Тихое.md",
+    "Качества оружия/Скрытое.md",
+    "Качества оружия/Разведывательный.md",
+    "Качества оружия/Ослабляющее.md",
+    "Качества оружия/Ночное Видение.md",
+    "Качества оружия/Ненадежное.md",
+    "Качества оружия/Надежное.md",
+    "Качества оружия/Мина.md",
+    "Качества оружия/Двуручное.md",
+    "Оружие/Ракетомёт.md",
+    "Оружие/Охотничья винтовка.md",
+    "Эффекты Урона/Проникающий.md",
+    "Эффекты Урона/Радиоактивный.md",
+    "Эффекты Урона/Разрушающий.md",
+    "Эффекты Урона/Стойкий.md",
+    "Эффекты Урона/Разброс.md",
+    "Эффекты Урона/Порочный.md",
+    "Эффекты Урона/Очередь.md",
+    "Эффекты Урона/Оглушение.md",
+    "Базы/Список Оружия.base",
+    "Эффекты Урона",
+    "Качества оружия",
+    "Оружие/Эффекты Урона",
+    "Оружие/Качества оружия",
+    "Untitled.base",
+    "Базы",
+    "Templates",
+    "Оружие"
+  ]
+}
