@@ -1,12 +1,26 @@
 filters:
   and:
     - file.inFolder("Одежда")
+properties:
+  note.Физическое СУ:
+    displayName: ФСУ
+  note.Энерго СУ:
+    displayName: ЭСУ
+  note.Радиационный СУ:
+    displayName: РСУ
+  note.Радиационный Иммунитет:
+    displayName: Р Имм.
+  note.Тип брони:
+    displayName: Тип
 views:
   - type: table
     name: Table
+    groupBy:
+      property: Тип брони
+      direction: ASC
     order:
       - file.name
-      - Тип
+      - Тип брони
       - Физическое СУ
       - Энерго СУ
       - Радиационный СУ
@@ -17,13 +31,16 @@ views:
       - Редкость
       - Оригинальное название
     sort:
+      - property: Тип
+        direction: ASC
       - property: Цена
         direction: ASC
     columnSize:
-      note.Физическое СУ: 59
-      note.Энерго СУ: 83
+      note.Тип: 109
+      note.Физическое СУ: 85
+      note.Энерго СУ: 84
       note.Радиационный СУ: 52
-      note.Радиационный Иммунитет: 34
+      note.Радиационный Иммунитет: 101
       note.Вес: 88
       note.Цена: 88
       note.Редкость: 67

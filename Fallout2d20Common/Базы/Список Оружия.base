@@ -1,18 +1,18 @@
 filters:
   and:
     - file.inFolder("Оружие")
+properties:
+  note.Тип оружия:
+    displayName: Тип
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - Тип == "Взрывчатка"
     groupBy:
-      property: Тип
+      property: Тип оружия
       direction: ASC
     order:
       - file.name
-      - Тип
+      - Тип оружия
       - Урон
       - Эффекты
       - Тип урона
