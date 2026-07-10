@@ -4,6 +4,9 @@ filters:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - Тип == "Взрывчатка"
     groupBy:
       property: Тип
       direction: ASC
@@ -29,6 +32,7 @@ views:
     summaries: {}
     columnSize:
       note.Урон: 68
+      note.Качества: 586
       note.Вес: 129
       note.Цена: 102
       note.Редкость: 190
