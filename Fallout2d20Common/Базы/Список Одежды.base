@@ -15,6 +15,9 @@ properties:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - note["Тип брони"] == "Обмундирование"
     groupBy:
       property: Тип брони
       direction: ASC
@@ -36,11 +39,11 @@ views:
       - property: Цена
         direction: ASC
     columnSize:
-      note.Тип: 109
       note.Физическое СУ: 85
       note.Энерго СУ: 84
       note.Радиационный СУ: 52
       note.Радиационный Иммунитет: 101
+      note.Защищаемая часть тела: 231
       note.Вес: 88
       note.Цена: 88
       note.Редкость: 67
