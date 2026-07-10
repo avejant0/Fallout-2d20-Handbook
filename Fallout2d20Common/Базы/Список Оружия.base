@@ -1,9 +1,9 @@
+filters:
+  and:
+    - file.inFolder("Оружие")
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - file.inFolder("Оружие")
     groupBy:
       property: Тип
       direction: ASC
