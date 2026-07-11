@@ -9,7 +9,7 @@ views:
     name: Table
     filters:
       and:
-        - note["Тип расходника"] == "Еда"
+        - note["Тип расходника"] == "Напиток"
     order:
       - file.name
       - Тип расходника
@@ -24,6 +24,7 @@ views:
       - property: Оригинальное название
         direction: ASC
     columnSize:
+      note.Прочие Эффекты: 382
       note.Вес: 54
       note.Цена: 80
       note.Редкость: 134
