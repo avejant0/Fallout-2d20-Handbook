@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.inFolder("Расходники")
+properties:
+  note.Тип расходника:
+    displayName: Тип
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - note["Тип расходника"] == "Еда"
+    order:
+      - file.name
+      - Тип расходника
+      - Восстанавливает ОЗ
+      - Прочие Эффекты
+      - Облучена?
+      - Вес
+      - Цена
+      - Редкость
+      - Оригинальное название
+    sort:
+      - property: Оригинальное название
+        direction: ASC
+    columnSize:
+      note.Вес: 54
+      note.Цена: 80
+      note.Редкость: 134
