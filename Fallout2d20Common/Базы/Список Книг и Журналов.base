@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.folder == "Книги и Журналы"
+properties:
+  file.name:
+    displayName: Название
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Перки
+      - Вес
+      - Цена
+      - Редкость
+      - Оригинальное название
+    sort:
+      - property: Редкость
+        direction: ASC
+    columnSize:
+      file.name: 267
