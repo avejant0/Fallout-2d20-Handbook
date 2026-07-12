@@ -42,3 +42,15 @@ views:
       - Цена
       - Редкость
       - Оригинальное название
+    sort:
+      - property: Оригинальное название
+        direction: ASC
+      - property: Зависимость?
+        direction: ASC
+    columnSize:
+      note.Прочие Эффекты: 340
+      note.Длительность: 188
+      note.Вес: 54
+      note.Цена: 80
+      note.Редкость: 134
+    rowHeight: medium
