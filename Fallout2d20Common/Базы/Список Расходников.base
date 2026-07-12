@@ -6,10 +6,10 @@ properties:
     displayName: Тип
 views:
   - type: table
-    name: Table
-    filters:
-      and:
-        - note["Тип расходника"] == "Еда"
+    name: Общее
+    groupBy:
+      property: Тип расходника
+      direction: ASC
     order:
       - file.name
       - Тип расходника
@@ -21,6 +21,8 @@ views:
       - Редкость
       - Оригинальное название
     sort:
+      - property: Тип расходника
+        direction: ASC
       - property: Оригинальное название
         direction: ASC
     columnSize:
