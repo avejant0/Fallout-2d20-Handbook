@@ -15,6 +15,8 @@ views:
       - Редкость
       - Оригинальное название
     sort:
+      - property: Перки
+        direction: ASC
       - property: Редкость
         direction: ASC
     columnSize:
