@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.folder == "Разное (предметы)"
+views:
+  - type: table
+    name: Инструменты и принадлежности
+    filters:
+      and:
+        - note["Тип предмета"] == "Инструменты и принадлежности"
+    order:
+      - file.name
+      - Тип предмета
+      - Эффекты
+      - Вес
+      - Цена
+      - Редкость
+      - Оригинальное название
+    sort:
+      - property: Оригинальное название
+        direction: ASC
+    columnSize:
+      note.Эффекты: 321
+    rowHeight: tall
+  - type: table
+    name: Модули роботв
+    filters:
+      and:
+        - note["Тип предмета"] == "Модуль роботов"
+    order:
+      - file.name
+      - Тип предмета
+      - Эффекты
+      - Вес
+      - Цена
+      - Редкость
+      - Перки
+      - Оригинальное название
+    sort:
+      - property: Оригинальное название
+        direction: ASC
+    columnSize:
+      note.Эффекты: 321
+      note.Вес: 87
+    rowHeight: medium
