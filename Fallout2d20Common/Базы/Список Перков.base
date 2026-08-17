@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("Способности/Перки")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Эффект
+      - Минимальный Уровень
+      - Число рангов
+      - Оригинальное название
+      - Источник
+    sort: []
