@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Книги и Журналы"
+    - file.folder == "Снаряжение/Книги и Журналы"
 properties:
   file.name:
     displayName: Название

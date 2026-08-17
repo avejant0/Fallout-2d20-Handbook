@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Расходники")
+    - file.inFolder("Снаряжение/Расходники")
 properties:
   note.Тип расходника:
     displayName: Тип

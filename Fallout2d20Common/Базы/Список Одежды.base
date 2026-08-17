@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Одежда")
+    - file.inFolder("Снаряжение/Одежда")
 properties:
   note.Физическое СУ:
     displayName: ФСУ

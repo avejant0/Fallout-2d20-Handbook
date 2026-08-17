@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Оружие")
+    - file.inFolder("Снаряжение/Оружие")
 properties:
   note.Тип оружия:
     displayName: Тип

@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Разное (предметы)"
+    - file.folder == "Снаряжение/Разное (предметы)"
 views:
   - type: table
     name: Инструменты и принадлежности
